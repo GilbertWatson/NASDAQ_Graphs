@@ -297,7 +297,8 @@ makeChart(series = WageSalaryShareGDI,
           filename = "WageSalaryShareGDI.png",
           ypt = 0.42,
           axisadj = 100,
-          axistype=percent)
+          axistype=percent,
+          startdatestring='1989-01-01')
 
 makeChart(series = LeaversAsPercentOfUnemployed,
           title = "Leavers as a Percentage of All Unemployed",
