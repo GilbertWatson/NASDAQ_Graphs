@@ -291,7 +291,6 @@ Stack <- Stack[,1:3]
 
 <<actuallymakecharts>>=
 makeChart(series = WageSalaryShareGDI,
-          savelocation = "/Users/gwatson/Documents/NASDAQ/website/",
           title = "Wages as a Percentage of Gross Domestic Income",
           ylabel = "Wages as a Percentage of GDI",
           sourcetext = "Source: Bureau of Economic Analysis",
@@ -301,7 +300,6 @@ makeChart(series = WageSalaryShareGDI,
           axistype=percent)
 
 makeChart(series = LeaversAsPercentOfUnemployed,
-          savelocation = "/Users/gwatson/Documents/NASDAQ/website/",
           title = "Leavers as a Percentage of All Unemployed",
           ylabel = "Leavers as Percentage Unemployed",
           sourcetext = "Source: Bureau of Labor Statistics",
@@ -311,7 +309,6 @@ makeChart(series = LeaversAsPercentOfUnemployed,
           axistype=percent)
 
 makeChart(series = NewEntrantsAsPercentUnemployed,
-          savelocation = "/Users/gwatson/Documents/NASDAQ/website/",
           title = "New Entrants as a Percentage of All Unemployed",
           ylabel = "New Entrants as Percentage Unemployed",
           sourcetext = "Source: Bureau of Labor Statistics",
@@ -321,7 +318,6 @@ makeChart(series = NewEntrantsAsPercentUnemployed,
           axistype=percent)
 
 makeChart(series = AverageWeeksUnemployed,
-          savelocation = "/Users/gwatson/Documents/NASDAQ/website/",
           title = "Average Unemployment Duration",
           ylabel = "Weeks",
           sourcetext = "Source: Bureau of Labor Statistics",
@@ -331,7 +327,6 @@ makeChart(series = AverageWeeksUnemployed,
           axistype=waiver())
 
 makeChart2(series = Stack,
-          savelocation = "/Users/gwatson/Documents/NASDAQ/website/",
           title = "Unemployed by Duration of Unemployment",
           ylabel = "Percent of Unemployed",
           sourcetext = "Source: Bureau of Labor Statistics",
