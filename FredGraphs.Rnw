@@ -339,7 +339,6 @@ makeChart2(series = Stack,
           ypt = 0.03,
           axisadj = 100,
           axistype=percent)
-
 @
 
 \end{document}
